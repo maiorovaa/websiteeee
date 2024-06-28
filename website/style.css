@@ -1,0 +1,379 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #281974;
+  color: white
+}
+header{
+width: 100%;
+background: #ffffff;
+height: 80px;
+}
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu {
+  flex-grow: 1;
+}
+.menu ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu li {
+  margin-right: 20px;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+.menu a {
+  padding: 8px 10px;
+}
+.logo {
+  margin-right: 30px;
+}
+.menu a,
+.menu .active {  
+display: block;
+padding: 8px 10px;
+}
+.menu .active {
+color: #fff;
+background-color: #ff3d00;
+border-radius: 8px;
+}
+.menu ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  list-style: none;
+}
+.menu a,
+.menu .active {
+  display: block;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  letter-spacing: .27em;
+}
+.menu a {
+  color: #000;
+  text-decoration: none;
+}
+.tel {
+  font-size: 20px;
+  line-height: 24px;
+}
+.tel a {
+  color: #000;
+  text-decoration: none;
+}
+.menu ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 2px 0 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  list-style: none;
+}
+.logotip{
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: #281974;
+  position: absolute;
+  top: 8;
+    left: 60px;}
+.logotip img{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top:-65px;
+  left: 7px;
+}
+.range{
+  font-size: 24px;
+  position: absolute;
+  top: 12px;
+    left: 250px;
+    border-radius: 45%;
+    width: 200px;
+    height: 60px;
+    background-color: #211764;}
+    .range a{
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    position: absolute;
+    top: 12px;
+    left: 45px;
+  }
+  .contacts{
+    font-size: 24px;
+    position: absolute;
+    top: 12px;
+      left: 500px;
+      border-radius: 45%;
+      width: 200px;
+      height: 60px;
+      background-color: #211764;}
+      .contacts a{
+      color: #ffffff;
+      position: absolute;
+      top: 12px;
+      left: 45px;
+    }
+    .name h1{
+      color:#ffffff;
+      position: absolute;
+      top: 0px;
+      left: 50px;  
+    }
+    .name{
+      font-size: 20px;
+      position: absolute;
+      top: 15px;
+        left: 900px;
+        border-radius: 0%;
+        width: 250px;
+        height: 50px;
+        background: linear-gradient(to right, rgb(19, 19, 103), grey);
+        
+      }
+      .number{
+        color:#ffffff;
+        position: absolute;
+        top: 30px;
+        left: 1500px; 
+      }
+      
+.wbags a{
+color: #ffffff;
+position: absolute;
+top: 90px;
+left: 50px;  
+}
+.mbags a{
+  color: #ffffff;
+  position: absolute;
+  top: 90px;
+  left: 200px; 
+}
+.bag a{
+  color: #ffffff;
+  position: absolute;
+  top: 90px;
+  left: 350px; 
+}
+
+.text-block {
+  margin-left: 50px;
+  top: 550px;
+  }
+
+    img {
+      margin-top: 70px;
+    }
+  .product img{
+width: 100;
+height: 200;
+  }
+  .block {
+    width:60%;
+    height:350px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 12%;
+}
+.Moscow h1{
+  color: #ffffff;
+  position: absolute;
+  top: 250px;
+  left: 45%; 
+}
+.Moscow h2{
+  color: #000000;
+  position: absolute;
+  top: 320px;
+  left: 23%; 
+}
+.Moscow img{
+  width: 60px;
+        height: 60px;
+        position: absolute;
+        top:300px;
+        left: 21%;
+}
+.box img{
+  width: 60px;
+        height: 60px;
+        position: absolute;
+        top:450px;
+        left: 21%;
+}
+.jhyj h4{
+  color: #000000;
+  position: absolute;
+  top: 390px;
+  left: 25%; 
+}
+.gdsx h4{
+  color: #15b398;
+  position: absolute;
+  top: 415px;
+  left: 25%; 
+}
+.fsgs h4{
+  color: #000000;
+  position: absolute;
+  top: 440px;
+  left: 25%; 
+}
+.yxuf h4{
+  color: #000000;
+  position: absolute;
+  top: 465px;
+  left: 25%; 
+}
+.day h4{
+  color: #000000;
+  position: absolute;
+  top: 490px;
+  left: 25%; 
+}
+.dkfrf h4{
+  color: #000000;
+  position: absolute;
+  top: 530px;
+  left: 25%; 
+}
+.gvfkk h4{
+  color: #15b398;
+  position: absolute;
+  top: 555px;
+  left: 25%; 
+}
+.uyguytgf h4{
+  color: #000000;
+  position: absolute;
+  top: 580px;
+  left: 25%; 
+}
+.ytjfjyf h4{
+  color: #000000;
+  position: absolute;
+  top: 605px;
+  left: 25%; 
+}
+.Msc h2{
+  color: #000000;
+  position: absolute;
+  top: 320px;
+  left: 60%; 
+}
+.Msc img{
+  width: 60px;
+        height: 60px;
+        position: absolute;
+        top:300px;
+        left: 55%;
+}
+.boxes img{
+  width: 60px;
+        height: 60px;
+        position: absolute;
+        top:450px;
+        left: 55%;
+}
+.gxdfx h4{
+  color: #000000;
+  position: absolute;
+  top: 390px;
+  left: 60%; 
+}
+.zofipp h4{
+  color: #15b398;
+  position: absolute;
+  top: 415px;
+  left: 60%; 
+}
+.uhgd h4{
+  color: #000000;
+  position: absolute;
+  top: 440px;
+  left: 60%; 
+}
+.uytiluh h4{
+  color: #000000;
+  position: absolute;
+  top: 465px;
+  left: 60%; 
+}
+.week h4{
+  color: #000000;
+  position: absolute;
+  top: 490px;
+  left: 60%; 
+}
+.xfrfh h4{
+  color: #000000;
+  position: absolute;
+  top: 530px;
+  left: 60%; 
+}
+.fiuio h4{
+  color: #15b398;
+  position: absolute;
+  top: 555px;
+  left: 60%; 
+}
+.uuyou h4{
+  color: #000000;
+  position: absolute;
+  top: 580px;
+  left: 60%; 
+}
+.pgifo h4{
+  color: #000000;
+  position: absolute;
+  top: 605px;
+  left: 60%; 
+}
+.vk img{
+  width: 60px;
+        height: 60px;
+        position: absolute;
+        top:280px;
+        left: 23%;
+}
+.inst img{
+  width: 60px;
+        height: 60px;
+        position: absolute;
+        top:420px;
+        left: 23%;
+}
+.jhggs h4{
+  color: #1815c4;
+  position: absolute;
+  top: 380px;
+  left: 28%; 
+  font-size: 20px;
+}
+.instagram h4{
+  color: #1815c4;
+  position: absolute;
+  top: 510px;
+  left: 28%; 
+  font-size: 20px;
+}
